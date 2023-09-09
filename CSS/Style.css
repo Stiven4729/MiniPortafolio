@@ -1,0 +1,253 @@
+:root{
+
+   --color1: #191c32;
+   --color2: aqua;
+   --color3: #fff;
+   --color4: #000;
+   --color5: red;
+
+}
+
+/*este permite cambiar el tipo de letra y el color de la letra de toda la pagina */
+body {
+   background-color: var(--color4);
+   font-family: 'Source Sans Pro', sans-serif;
+   color: var(--color3);
+}
+
+/*desde aqui inicia el navbar de la pagina */
+.color1{
+   color: var(--color5);
+}
+
+.logo{
+   margin-left: auto;
+}
+
+
+.container{
+   margin-top: auto;
+   max-width: 95%;
+   overflow: auto;
+   padding: 0px 0px 30px 30px;
+}
+
+.navbar{
+   overflow: auto;
+}
+
+
+.navbar .logo{
+
+   float: left;
+   padding-top: 20px;
+
+}
+
+
+
+.navbar{
+
+   color: var(--color3);
+
+}
+
+.navbar ul{
+   
+   list-style: none;
+   float: right;
+}
+
+.navbar ul li {
+   float: left;
+}
+
+.navbar ul li a {
+   display: block;
+   padding: 20px;
+   text-align: center;
+   text-decoration: none;
+   color: var(--color3);
+}
+
+.navbar ul li a:hover{
+   background: var(--color2);
+   color: var(--color4);
+}
+
+.navbar ul li a.current{
+   color:var(--color1);
+}
+
+.navbar ul li a.current:hover{
+   background-color: var(--color1);
+   color: var(--color2);
+}
+/*aqui finaliza el estilo del navbar*/
+/*aqui inicia el cuerpo de la pagina el estilo*/
+.banner-header {
+   height: 60vh;
+   width: 100%;
+   overflow: hidden;
+   background: var(--color1);
+   background:linear-gradient(rgba(8, 0, 0, 10), rgba(223, 58, 0, 0)), url("../Img/Portafolio/fondo.jpeg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+}
+
+
+.banner-header-text{
+   height: 100%;
+   width: 45%;
+   margin: auto;
+   text-align: center;
+   display: grid;
+   place-content: center;
+}
+
+.banner-title{
+   font-size: 3em;
+   padding-bottom: 20px;
+}
+
+.banner-title span{
+   color: var(--color5);
+}
+
+.portafolio {
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   width: 100%;
+}
+
+.portafolio a {
+   color: var(--color3);
+   text-decoration: none;
+}
+
+.portafolio .portafolio-nav {
+   display: table;
+   margin: 0 auto;
+   padding-bottom: 20px;
+}
+
+.portafolio ul {
+   list-style: none;
+   float: right;
+}
+
+.portafolio ul li {
+   float: left;
+}
+
+.portafolio ul li a {
+   display: block;
+   padding: 10px;
+   text-align: center;
+}
+
+.txt-btn {
+   font-size: 1em;
+}
+
+.box {
+   float: left;
+   width: 20%;
+   padding: 20px;
+   padding-left: 7%;
+}
+
+.box img {
+   width: 80%;
+   height: 30%;
+   border: 2px solid var(--color3);
+   border-radius: 20px;
+} 
+
+.box a:hover img {
+   transform: scale(1.4);
+   border: 2px solid var(--color2);
+}
+
+
+.banner-title{
+   font-size: 27px;
+}
+
+.main-footer p{
+   float: left;
+}
+
+.main-footer ul {
+   float: right;
+   list-style: none;
+}
+
+.main-footer ul li {
+   float: left;
+}
+
+.main-footer ul li i {
+   color: var(--color3);
+}
+
+.main-footer ul li a {
+   display: block;
+   padding: 10px;
+   text-align: center;
+}
+
+/* About Me */
+
+.about {
+
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   width: 100%;
+ 
+ }
+ 
+ .about a {
+ 
+   color: var(--secondary-color);
+   text-decoration: none;
+ 
+ }
+ 
+ .txt-btn {
+ 
+   font-size: 1em;
+ 
+ }
+ 
+  
+ 
+ .card-skill {
+ 
+   float: left;
+   width: 16.6%;
+   padding:16px;
+   margin-top: 10px;
+ 
+ }
+ 
+ .card-skill img {
+ 
+   width: 100%;
+   border: 2px solid var(--secondary-color);
+   background-color: var(--secondary-color);
+   border-radius: 20px;
+ 
+ }
+ 
+  
+ 
+ .card-skill img:hover {
+ 
+   transform: scale(1.1); 
+   border: 2px solid var(--secondary-color);
+ 
+ }

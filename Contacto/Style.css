@@ -1,0 +1,188 @@
+:root{
+
+    --color1: #34353b;
+    --color2: aqua;
+    --color3: #fff;
+    --color4: #000;
+    --color5: red;
+ 
+ }
+ 
+ /*este permite cambiar el tipo de letra y el color de la letra de toda la pagina */
+ body {
+    background-color: var(--color4);
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--color3);
+ }
+ 
+ /*desde aqui inicia el navbar de la pagina */
+ .color1{
+    color: var(--color5);
+ }
+ 
+ .logo{
+    margin-left: auto;
+ }
+ 
+ 
+ .container{
+    margin-top: auto;
+    max-width: 95%;
+    overflow: auto;
+    padding: 0px 0px 30px 30px;
+ }
+ 
+ .navbar{
+    overflow: auto;
+ }
+ 
+ 
+ .navbar .logo{
+ 
+    float: left;
+    padding-top: 20px;
+ 
+ }
+ 
+ .btn {
+    background-color: var(--color2);
+    border-radius: 30%;
+    border: 3px var(--color1) solid;
+ }
+ 
+ .navbar{
+ 
+    color: var(--color3);
+ 
+ }
+ 
+ .navbar ul {
+    
+    list-style: none;
+    float: right;
+ }
+ 
+ .navbar ul li {
+    float: left;
+ }
+ 
+ .navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color3);
+ }
+ 
+ .navbar ul li a:hover{
+    background: var(--color2);
+    color: var(--color4);
+ }
+ 
+ .navbar ul li a.current{
+    color:var(--color1);
+ }
+ 
+ .navbar ul li a.current:hover{
+    background-color: var(--color1);
+    color: var(--color2);
+ }
+
+/* contacto de infromacion */
+
+
+.contact {
+    height: 700px;
+    padding-bottom: 100px;
+ }
+ 
+ .contact .box-contact-features{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding-bottom: 20px;
+ }
+ 
+ .contact .box-contact-features i{
+    padding-bottom: 20px;
+ }
+ 
+ .contact .box-contact-features p{
+    line-height: 0.8em;
+ }
+ 
+ .contact .features-contact .box-form {
+    float: left;
+    width: 50%;
+    padding: 60px 10px 20px 10px;
+ }
+ 
+ .contact .features-contact .box-form iframe{
+    width: 100%;
+    height: 400px;
+ }
+ 
+ /* formulario */
+ 
+
+ .contact .contactform .single-form{
+    margin-bottom: 20px;
+ }
+ 
+ .contact-form label{
+    display: block;
+    margin-bottom: 5px;
+ }
+ 
+ .contact-form input,
+ .contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    /*border: 2px var(--color3) solid;*/
+    border-radius: 20px;
+    background-color: var(--color1);
+    color: var(--color3);
+ }
+ 
+ .contact-form input:focus,
+ .contact-form textarea:focus {
+    background-color: var(--color);
+    color: var(--color3);
+ }
+ 
+ .contact-form textarea {
+    height: 200px;
+ }
+ 
+ .contact-form input:focus,
+ .contact-form textarea:focus {
+    outline: none;
+    background-color: var(--color4);
+ }
+ 
+ /* intro de contact*/
+
+ .hero {
+    background: var(--color3);
+    height: 50vh;
+    padding: 50px;
+ }
+
+ .hero-header-text {
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    place-content: center;
+ }
+
+ .hero-title {
+    font-size: 3em;
+    padding-bottom: 20px;
+ }
+
+ .hero-title span{
+    color: var(--color3);
+ }
+
